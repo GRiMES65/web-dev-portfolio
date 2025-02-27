@@ -40,7 +40,7 @@ export default function Info() {
                 <Link href='#contact' 
                 className='bg-red-600 px-3 py-3 flex items-center gap-2 rounded-full
                 outline-none focus:scale-110 hover:scale-110 hover:bg-red-700
-                active:scale-105 transition group'>
+                active:scale-105 transition group text-zinc-300'>
                     Contact Me! <BsArrowRight className='group-hover:translate-x-2 transition
                     '/>
                 </Link>

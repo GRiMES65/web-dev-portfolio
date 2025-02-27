@@ -38,7 +38,7 @@ export default function ThemeSwitch() {
   
     return (
     <button className='fixed bottom-6 right-8
-    bg-zinc-950 w-[2rem] h-[2rem] bg-opacity-80
+    bg-zinc-400 dark:bg-zinc-950 w-[2rem] h-[2rem] bg-opacity-80
     rounded-full border-opacity-40 border-white
     flex items-center justify-center
     hover:scale-[1.15] active:scale-105
