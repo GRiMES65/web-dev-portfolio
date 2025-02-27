@@ -23,9 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <body
-        className={`${poppinsRegular.variable} bg-zinc-200 text-neutral-900
-          dark:bg-zinc-900 dark:text-neutral-100
-          transition-all`}
+        className={`${poppinsRegular.variable} bg-zinc-200 text-neutral-900`}
       >
         <Header />
         {children}
