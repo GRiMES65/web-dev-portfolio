@@ -8,6 +8,7 @@ import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
 import Link from 'next/link';
 import { FaGithubSquare } from 'react-icons/fa';
 import { HiDownload } from 'react-icons/hi';
+import Image from 'next/image';
 
 export default function Info() {
   const ref = React.useRef(null);
@@ -24,7 +25,7 @@ export default function Info() {
           id="home"
         >
         <div className='profilePhoto'>
-            {<img src={profilePhoto.src} alt="" className='w-[220px] rounded-full' />}
+            {<Image src={profilePhoto.src} alt="" className='w-[220px] rounded-full' />}
         </div>
         <div className="text">
             <div className='firstText font-black'>Hi! I am, JEEVAN</div>

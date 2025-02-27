@@ -5,7 +5,6 @@ import { motion, useInView } from "framer-motion";
 import "./header.css";
 import { links } from "@/lib/data";
 import Link from "next/link";
-import { IconContext } from "react-icons/";
 
 export default function Header() {
   const ref = React.useRef(null);

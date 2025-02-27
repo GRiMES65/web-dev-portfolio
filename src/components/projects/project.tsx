@@ -1,10 +1,9 @@
 'use client'
 
-import React, {useRef} from 'react'
+import React, { useRef } from 'react'
 import Image from 'next/image'
 import { projectsData } from '@/lib/data'
 import "./projects.css"
-import { div } from 'motion/react-client'
 import {motion, useScroll, useTransform} from 'framer-motion'
 
 
@@ -17,7 +16,7 @@ export default function Project({
     tags,
     imageUrl
 }: ProjectProps) {
-    const ref = useRef<HTMLDivElement>(null)
+    const ref = useRef <HTMLDivElement> (null)
     const {scrollYProgress} = useScroll({
         target: ref,
         offset: ["0 1", "1.33 1"],
