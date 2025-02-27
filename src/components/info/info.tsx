@@ -25,7 +25,13 @@ export default function Info() {
           id="home"
         >
         <div className='profilePhoto'>
-            {<Image src={profilePhoto.src} alt="" className='w-[220px] rounded-full' />}
+            {<Image 
+                src={profilePhoto.src} 
+                alt="Profile photo" 
+                width={220} 
+                height={220} 
+                className='w-[220px] rounded-full' 
+            />}
         </div>
         <div className="text">
             <div className='firstText font-black'>Hi! I am, JEEVAN</div>
