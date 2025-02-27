@@ -1,4 +1,4 @@
-import React, {useRef} from 'react'
+import React from 'react'
 import SectionHeading from '@/components/section-heading/section-heading-component'
 import { projectsData } from '@/lib/data'
 import "./projects.css"
