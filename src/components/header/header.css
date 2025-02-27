@@ -1,0 +1,64 @@
+.header-element {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    padding-top: 1.3rem;
+    z-index: 999;
+}
+
+.NavBar {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.headerLinks {
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.headerLinks > li {
+    transition: 0.5s ease;
+    display: inline-block;
+    position: relative;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+ul > li {
+    transition: 0.5s ease;
+    display: inline-block;
+    position: relative;
+}
+
+ul>li:hover {
+    color: tomato;
+}
+
+.headerLinks>li::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: tomato;
+    transition: transform 0.35s ease-out;
+    transform-origin: bottom left;
+}
+
+.headerLinks>li:hover::after {
+    transform: scaleX(1);
+}
+
