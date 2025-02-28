@@ -41,7 +41,7 @@ export default function Project({
                     <h3 className='mt-2 text-xl font-bold
                     text-white'>{title}</h3>
                     <p className='mt-4 leading-relaxed text-zinc-400'>{description}</p>
-                    <ul className='mt-7'>
+                    <ul className='mt-7 flex gap-3 justify-center'>
                         {tags.map((tag,index)=> (
                             <li className='bg-neutral-100 dark:text-black px-3 py-1 text-[0.7rem] tracking-wider
                             p-1 rounded-full' key={index}>{tag}</li>

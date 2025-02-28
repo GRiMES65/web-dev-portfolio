@@ -19,6 +19,9 @@
     justify-content: space-around;
     gap: 3rem;
     flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+    border: 1.5px solid tomato;
 }
 
 .headerLinks > li {
